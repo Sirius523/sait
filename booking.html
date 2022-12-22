@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css">
+    <title>Управление бронированием</title>
+</head>
+<body>
+    <header class="head-text">
+        <img class="logoimg" src="/img/logo.png" alt="">
+        <div class="link-a">
+        <a href="index.html" class="link">Главная</a>
+        <a href="booking.html" class="link">Управление бронированием</a>
+        <a href="search.html" class="link">Поиск</a>
+        <a href="" class="link">Акции</a>
+        </div>
+        <div class="searchbutton">
+            <button>Поиск</button>
+            <input type="">
+        </div>
+    </header>
+    <div class="containersearch">
+        <h2 id="search" class='title'>Управление бронированием</h2>
+        <div class="form-find">
+            <ul class="list-find">
+                <li class="list-find-item">
+                    <span>Регион:</span>
+                    <select class="find select">
+                        <option value="1">Выберите маршрут:</option>
+                        <option value="2">Алтайский край</option>
+                        <option value="3">Красноярский край</option>
+                        <option value="4">Приморский край</option>
+                        <option value="5">Тюменская область</option>
+                        <option value="6">Камчатка</option>
+                    </select>
+                </li>
+                <li class="list-find-item">
+                    <span>Адрес</span>
+                    <select class="find select">
+                        <option value="1">Выберите маршрут:</option>
+                        <option value="2">Алтайский край</option>
+                        <option value="3">Красноярский край</option>
+                        <option value="4">Приморский край</option>
+                        <option value="5">Тюменская область</option>
+                        <option value="6">Камчатка</option>
+                    </select>
+                </li>
+                <li class="list-find-item">
+                    <label>Введите дату: <input type="date" class="find data"></label>
+                </li>
+                <li class="list-find-item">
+                    <label>Введите время: <input type="time" class="find data"></label>
+                </li>
+                <li class="list-find-item">
+                    <label>Количество людей: <input type="text" value="0" class="find value"></label>
+                </li>
+                <li class="list-find-item">
+                    <span>Стоимость</span>
+                    <select class="select">
+                    <option value="1">Стоимость</option>
+                    <option value="2">Туристическая база "Озеро Красилово" (500 руб./час)</option>
+                    <option value="3">Спа-отель "Мечта"(300 руб./час)</option>
+                    <option value="4">Парк-отель "Чайка"(700 руб./час)</option>
+                </select>
+                </li>
+            </ul>
+            <button class="button button-find">Поиск</button>
+        </div>
+    </div>
+    <div class="containerstock">
+        <h2>Дополнительные услуги</h2>
+        <ul class="dopuslugi">
+        <br><input type="checkbox"> Услуги фотографа - 2000 р/час
+        <br><input type="checkbox"> Реквизит для съемок  - от 500  р/час 
+        <br><input type="checkbox"> Моментальная печать фотографий - 30 р/шт
+        <br><input type="checkbox"> Услуги такси - 50  р + 10 р за каждый км  
+        </ul>
+    </div>
+    <div class="container3">
+        <h2>Коментарий</h2>
+        <p>Добавить коментарий</p>
+        <input type="text" class="inputcomment"> 
+        <br><button class="butcomment">Опубликовать</button>
+        <button>Очистить</button>
+        <h2>Итоговая стоимость: 3 500 рублей</h2>
+        
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+        </div>
+        <ul class="contact">
+            <a href="#" class="contact">+7 985 324-23-12</a>
+            <br><br><a href="#" class="contact">focus@mail.ru</a>
+        </ul>
+        <ul class="menu">
+            <li><a href="" class="link">Главная</a></li>
+            <li><a href="" class="link">Наши отзывы</a></li>
+            <li><a href="" class="link">Управление бронированием</a></li>
+            <li><a href="" class="link">Поиск</a></li>
+            <li><a href="" class="link">Акции</a></li>
+        </ul>
+        <p>©2022 Фокус | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

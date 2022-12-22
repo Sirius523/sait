@@ -1,0 +1,226 @@
+body {
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(226, 159, 70);
+    height: 200px;
+    margin-bottom: 100px;
+}
+.logoimg {
+    width: 200px;
+    padding-left: 200px;
+}
+.link-a {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 550px;
+    padding-right: 100px;
+    margin-top: -100px;
+    width: 55%;
+    font-size: 33px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.searchbutton {
+    margin-left: 2050px;
+    margin-top: -30px;
+}
+.for1 {
+    position: absolute;
+    text-shadow: 0 0 10px rgba(255, 38, 0, 0.7);
+    font-size: 35px;
+    color: white;
+    top: 255px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: century gothic;
+}
+.for2 {
+    position: absolute;
+    text-shadow: 0 0 10px rgba(255, 38, 0, 0.7);
+    font-size: 25px;
+    color: white;
+    top: 295px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: century gothic;
+}
+.reviews-item{
+    display: flex;
+    padding-left: 150px;
+}
+
+.reviews-item-text{
+    background-color: #fff;
+    max-width: 70%;
+    min-width: 45%;
+    min-height: 100px;
+    border-radius: 120px;
+    padding: 15px;
+}
+
+.reviews-item-name{
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 25px;
+}
+
+.star{
+    background-color: #fff;
+    border-radius: 120px;
+    max-width: 35%;
+    height: 30px;
+    width: 150px;
+    margin-top: 35px;
+}
+.stars {
+    margin-top: 3px;
+}
+.reviews{
+    background-color: rgb(226, 159, 70);
+    margin-bottom: 75px;
+    border-radius: 120px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 175px;
+    margin-right: 175px;
+    border: 1px solid black;
+}
+.title {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+}
+.containerbooking {
+    background-color: rgb(226, 159, 70);
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 120px;
+    padding: 30px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.reservation {
+    background-color:rgb(226, 159, 70);
+    border: 1px solid black;
+    min-height: 15em;
+}
+.bookingli {
+    font-size: 30px;
+    text-decoration: none;
+}
+.bookinga {
+    font-size: 30px;
+    text-decoration: none;
+}
+.containersearch {
+    background-color: rgb(226, 159, 70);
+    margin-bottom: 150px;
+    border-radius: 120px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 175px;
+    margin-right: 175px;
+    border: 1px solid black;
+    font-size: 26px;
+}
+.list-find{
+    text-align: start;
+    padding-left: 350px;
+}
+
+.list-find-item{
+    padding-left: 2em;
+    max-width: 400px;
+    display: inline-block;
+    margin-left: 2.6em;
+    margin-top: 2.5em;
+}
+.button-find{
+    margin-top: 3em;
+    min-height: 45px;
+    min-width: 100px;
+    border: none;
+    border-radius: 120px;
+    border: 1px solid black;
+}
+.containerstock {
+    background-color: rgb(226, 159, 70);
+    margin-bottom: 100px;
+    border-radius: 120px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 175px;
+    margin-right: 175px;
+    border: 1px solid black;
+}
+.img{
+    min-width: 500px;
+    max-height: 280px;
+    border-radius: 120px;
+}
+.slider-item{
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+.text-slider{
+    text-align: left;
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container3 {
+    background-color: rgb(226, 159, 70);
+    margin-bottom: 150px;
+    border-radius: 120px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+footer{
+    position: relative;
+    width: 95%;
+    padding: 20px 50px;
+    background: rgb(226, 159, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a {
+    font-size: 1.2em;
+    color: #fff;
+    opacity: 0.75;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}    
+.contact {
+    text-decoration: none;
+    color: white;
+}
